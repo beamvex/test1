@@ -18,10 +18,10 @@ import {
 } from '@material-ui/icons';
 
 // Shared components
-import { DisplayMode, SearchInput } from 'components';
+import { DisplayMode, SearchInput } from '../../../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class UsersToolbar extends Component {
   render() {

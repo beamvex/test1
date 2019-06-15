@@ -22,7 +22,7 @@ import {
 } from '@material-ui/icons';
 
 // Shared layouts
-import { Dashboard as DashboardLayout } from '../../layouts/Dashboard/index.js';
+import { Dashboard as DashboardLayout } from '../../layouts/Dashboard/index.jsx';
 
 // Shared services
 import { getProducts } from '../../services/product/index.js';

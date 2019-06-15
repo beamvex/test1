@@ -17,7 +17,7 @@ import { Sidebar, Topbar, Footer } from './components/index.jsx';
 // Component styles
 import styles from './styles.jsx';
 
-class Dashboard extends Component {
+export class Dashboard extends Component {
   constructor(props) {
     super(props);
 
@@ -90,3 +90,4 @@ export default compose(
   withStyles(styles),
   withWidth()
 )(Dashboard);
+
