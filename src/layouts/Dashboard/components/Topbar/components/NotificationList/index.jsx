@@ -29,7 +29,7 @@ import {
 } from '@material-ui/icons';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 const icons = {
   order: {
@@ -50,7 +50,7 @@ const icons = {
   }
 };
 
-class NotificationList extends Component {
+export class NotificationList extends Component {
   render() {
     const { className, classes, notifications, onSelect } = this.props;
 

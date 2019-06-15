@@ -30,7 +30,7 @@ import {
 import { getNotifications } from '../../../../services/notification/index.js';
 
 // Custom components
-import { NotificationList } from '../../../../components/index.jsx';
+import { NotificationList } from './components/NotificationList/index.jsx';
 
 // Component styles
 import styles from './styles.jsx';

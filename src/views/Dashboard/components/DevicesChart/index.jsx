@@ -26,7 +26,7 @@ import {
   PortletLabel,
   PortletToolbar,
   PortletContent
-} from '../../components/index.jsx';
+} from '../../../../components/index.jsx';
 
 // Palette
 import palette from '../../../../theme/palette.js';
@@ -37,7 +37,7 @@ import { data, options } from './chart.js';
 // Component styles
 import styles from './styles.jsx';
 
-class DevicesChart extends Component {
+export class DevicesChart extends Component {
   render() {
     const { classes, className, ...rest } = this.props;
 

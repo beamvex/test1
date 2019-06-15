@@ -17,7 +17,7 @@ import {
   PortletLabel,
   PortletContent,
   PortletFooter
-} from '../../components/index.jsx';
+} from '../../../../components/index.jsx';
 
 // Component styles
 import styles from './styles.jsx';

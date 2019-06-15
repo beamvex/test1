@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core';
 import { Avatar, Typography, Button, LinearProgress } from '@material-ui/core';
 
 // Shared components
-import { Portlet, PortletContent, PortletFooter } from '../../components/index.jsx';
+import { Portlet, PortletContent, PortletFooter } from '../../../../components/index.jsx';
 
 // Component styles
 import styles from './styles.jsx';
