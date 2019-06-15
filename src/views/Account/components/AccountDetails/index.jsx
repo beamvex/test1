@@ -17,10 +17,10 @@ import {
   PortletLabel,
   PortletContent,
   PortletFooter
-} from 'components';
+} from '../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 const states = [
   {

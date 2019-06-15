@@ -1,2 +1,2 @@
-export { default as AccountDetails } from './AccountDetails';
-export { default as AccountProfile } from './AccountProfile';
+export { default as AccountDetails } from './AccountDetails/index.jsx';
+export { default as AccountProfile } from './AccountProfile/index.jsx';

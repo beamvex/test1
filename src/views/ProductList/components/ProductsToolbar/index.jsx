@@ -11,10 +11,10 @@ import { withStyles } from '@material-ui/core';
 import { Button } from '@material-ui/core';
 
 // Shared components
-import { DisplayMode, SearchInput } from 'components';
+import { DisplayMode, SearchInput } from '../../../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class ProductsToolbar extends Component {
   render() {

@@ -1,5 +1,5 @@
 // Palette
-import palette from 'theme/palette';
+import palette from '../../../../theme/palette.js';
 
 // Chart data
 export const data = {

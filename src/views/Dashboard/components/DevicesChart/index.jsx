@@ -26,16 +26,16 @@ import {
   PortletLabel,
   PortletToolbar,
   PortletContent
-} from 'components';
+} from '../../components/index.jsx';
 
 // Palette
-import palette from 'theme/palette';
+import palette from '../../../../theme/palette.js';
 
 // Chart configuration
-import { data, options } from './chart';
+import { data, options } from './chart.js';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class DevicesChart extends Component {
   render() {

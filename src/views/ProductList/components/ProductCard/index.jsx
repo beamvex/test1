@@ -17,10 +17,10 @@ import {
 } from '@material-ui/icons';
 
 // Shared components
-import { Paper } from 'components';
+import { Paper } from '../../../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class ProductCard extends Component {
   render() {

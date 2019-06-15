@@ -25,13 +25,13 @@ import {
   PortletToolbar,
   PortletContent,
   PortletFooter
-} from 'components';
+} from '../../../../components/index.jsx';
 
 // Chart configuration
-import { data, options } from './chart';
+import { data, options } from './chart.js';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class SalesChart extends Component {
   render() {

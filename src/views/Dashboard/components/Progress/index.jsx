@@ -14,10 +14,10 @@ import { Typography, LinearProgress } from '@material-ui/core';
 import { InsertChartOutlined as InsertChartIcon } from '@material-ui/icons';
 
 // Shared components
-import { Paper } from 'components';
+import { Paper } from '../../../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class Progress extends Component {
   render() {
