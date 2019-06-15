@@ -24,13 +24,13 @@ import {
 import { ArrowBack as ArrowBackIcon } from '@material-ui/icons';
 
 // Shared components
-import { Facebook as FacebookIcon, Google as GoogleIcon } from '../../icons/index.js';
+import { Facebook as FacebookIcon, Google as GoogleIcon } from '../../icons/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 // Form validation schema
-import schema from './schema';
+import schema from './schema.js';
 
 // Service methods
 const signIn = () => {

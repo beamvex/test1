@@ -28,10 +28,10 @@ import { Dashboard as DashboardLayout } from '../../layouts/Dashboard/index.js';
 import { getProducts } from '../../services/product/index.js';
 
 // Custom components
-import { ProductsToolbar, ProductCard } from './components';
+import { ProductsToolbar, ProductCard } from './components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class ProductList extends Component {
   signal = true;

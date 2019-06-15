@@ -24,13 +24,13 @@ import {
 } from '@material-ui/core';
 
 // Shared helpers
-import { getInitials } from 'helpers';
+import { getInitials } from '../../../../helpers/index.js';
 
 // Shared components
-import { Portlet, PortletContent } from 'components';
+import { Portlet, PortletContent } from '../../../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class UsersTable extends Component {
   state = {

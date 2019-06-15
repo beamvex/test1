@@ -22,7 +22,7 @@ import {
   DevicesChart,
   ProductList,
   OrdersTable
-} from './components';
+} from './components/index.jsx';
 
 // Component styles
 const styles = theme => ({

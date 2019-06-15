@@ -13,7 +13,7 @@ import { Grid } from '@material-ui/core';
 import { Dashboard as DashboardLayout } from '../../layouts/Dashboard/index.js';
 
 // Custom components
-import { AccountProfile, AccountDetails } from './components';
+import { AccountProfile, AccountDetails } from './components/index.jsx';
 
 // Component styles
 const styles = theme => ({

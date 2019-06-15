@@ -16,10 +16,10 @@ import { Dashboard as DashboardLayout } from '../../layouts/Dashboard/index.js';
 import { getUsers } from '../../services/user/index.js';
 
 // Custom components
-import { UsersToolbar, UsersTable } from './components';
+import { UsersToolbar, UsersTable } from './components/index.jsx';
 
 // Component styles
-import styles from './style';
+import styles from './style.jsx';
 
 class UserList extends Component {
   signal = true;

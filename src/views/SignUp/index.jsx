@@ -25,13 +25,13 @@ import {
 import { ArrowBack as ArrowBackIcon } from '@material-ui/icons';
 
 // Shared utilities
-import validators from 'common/validators';
+import validators from '../../common/validators/index.js';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 // Form validation schema
-import schema from './schema';
+import schema from './schema.js';
 
 validate.validators.checked = validators.checked;
 
