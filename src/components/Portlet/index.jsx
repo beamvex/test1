@@ -8,7 +8,7 @@ import classNames from 'classnames';
 import { withStyles } from '@material-ui/core';
 
 // Shared components
-import Paper from '../Paper';
+import Paper from '../Paper/index.jsx';
 
 // Component styles
 const styles = () => ({

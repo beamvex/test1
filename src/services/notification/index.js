@@ -1,5 +1,5 @@
 // Mock data
-import notifications from 'data/notifications';
+import notifications from '../../data/notifications.js';
 
 export const getNotifications = (limit = 6) => {
   return new Promise(resolve => {

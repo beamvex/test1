@@ -23,7 +23,7 @@ import {
 } from '@material-ui/core';
 
 // Shared services
-import { getOrders } from 'services/order';
+import { getOrders } from '../../../../services/order/index.js';
 
 // Shared components
 import {

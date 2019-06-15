@@ -34,7 +34,7 @@ import {
 } from '@material-ui/icons';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class Sidebar extends Component {
   render() {

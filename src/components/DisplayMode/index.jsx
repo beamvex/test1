@@ -11,7 +11,7 @@ import { withStyles } from '@material-ui/core';
 import { List as ListIcon, Apps as AppsIcon } from '@material-ui/icons';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 const DisplayMode = props => {
   const { classes, className, mode, onChange } = props;

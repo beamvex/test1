@@ -6,7 +6,7 @@ import classNames from 'classnames';
 import PropTypes from 'prop-types';
 
 // Shared services
-import { getProducts } from 'services/product';
+import { getProducts } from '../../../../services/product/index.js';
 
 // Material helpers
 import { withStyles } from '@material-ui/core';

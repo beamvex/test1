@@ -14,7 +14,7 @@ import { Input } from '@material-ui/core';
 import { Search as SearchIcon } from '@material-ui/icons';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 const SearchInput = props => {
   const { classes, className, onChange, style, ...rest } = props;

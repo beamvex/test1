@@ -14,7 +14,7 @@ import { Avatar, Typography, Button, LinearProgress } from '@material-ui/core';
 import { Portlet, PortletContent, PortletFooter } from '../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class AccountProfile extends Component {
   render() {

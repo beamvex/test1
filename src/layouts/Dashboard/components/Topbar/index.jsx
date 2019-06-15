@@ -27,13 +27,13 @@ import {
 } from '@material-ui/icons';
 
 // Shared services
-import { getNotifications } from 'services/notification';
+import { getNotifications } from '../../../../services/notification/index.js';
 
 // Custom components
-import { NotificationList } from './components';
+import { NotificationList } from '../../../../components/index.jsx';
 
 // Component styles
-import styles from './styles';
+import styles from './styles.jsx';
 
 class Topbar extends Component {
   signal = true;
